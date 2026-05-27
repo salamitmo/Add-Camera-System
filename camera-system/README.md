@@ -132,9 +132,3 @@ python main.py
 
 - Python
 - Pygame
-
----
-
-## Author
-
-Salamitmo
