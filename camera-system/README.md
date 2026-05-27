@@ -1,17 +1,19 @@
 # Camera System
 
-Flexible camera system for 2D renderer architecture.
+Flexible camera system for 2D renderer architecture using Python and Pygame.
+
+---
 
 ## Features
 
 - Top view projection
 - Left view projection
-- Camera follow system
-- Zoom in/out
+- Smooth camera following
+- Camera zoom in/out
 - Camera panning
 - World-to-screen transformation
 - Screen-to-world transformation
-- Smooth camera tracking
+- Modular renderer architecture
 
 ---
 
@@ -29,7 +31,8 @@ Flexible camera system for 2D renderer architecture.
 
 ## Architecture
 
-project/
+```text
+camera-system/
 │
 ├── renderer/
 │   ├── camera.py
@@ -38,35 +41,64 @@ project/
 ├── entities/
 │   └── robot.py
 │
-└── main.py
+├── docs/
+│   └── result.jpg
+│
+├── main.py
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## Architecture Diagram
+
+![Architecture](camera-system/docs/result.jpg)
 
 ---
 
 ## Coordinate Systems
 
 ### World Space
-3D coordinates in the simulation world.
+
+3D coordinates inside the simulation world.
 
 Example:
+
+```text
 (100, 50, 20)
+```
 
 ### Screen Space
-2D pixel coordinates on the screen.
+
+2D pixel coordinates rendered on the screen.
 
 Example:
+
+```text
 (500, 300)
+```
 
 ---
 
 ## Projection Modes
 
 ### Top View
+
 Projects:
+
+```text
 (X, Y)
+```
 
 ### Left View
+
 Projects:
+
+```text
 (X, Z)
+```
 
 ---
 
@@ -76,4 +108,33 @@ Projects:
 - Smooth movement
 - Zoom scaling
 - Coordinate transformations
-- Panning
+- Camera panning
+
+---
+
+## Install
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run
+
+```bash
+python main.py
+```
+
+---
+
+## Technologies
+
+- Python
+- Pygame
+
+---
+
+## Author
+
+Salamitmo
