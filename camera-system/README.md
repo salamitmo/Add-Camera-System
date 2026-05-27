@@ -54,7 +54,7 @@ camera-system/
 
 ## Architecture Diagram
 
-![Architecture](camera-system/docs/result.jpg)
+![Architecture](docs/result.jpg)
 
 ---
 
