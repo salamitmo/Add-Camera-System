@@ -42,7 +42,8 @@ camera-system/
 │   └── robot.py
 │
 ├── docs/
-│   └── result.jpg
+│   ├── result.jpg
+│   └── robot.mp4
 │
 ├── main.py
 ├── README.md
@@ -55,6 +56,14 @@ camera-system/
 ## Architecture Diagram
 
 ![Architecture](docs/result.jpg)
+
+---
+
+## Demo Video
+
+Click below to watch the robot camera system demo:
+
+[▶️ Watch Robot Demo](docs/robot.mp4)
 
 ---
 
