@@ -61,7 +61,7 @@ camera-system/
 
 ## Demo Video
 
-![Demo](robot.gif)
+![Demo](docs/robot.gif)
 
 ---
 
