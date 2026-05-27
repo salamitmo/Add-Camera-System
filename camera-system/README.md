@@ -61,9 +61,7 @@ camera-system/
 
 ## Demo Video
 
-Click below to watch the robot camera system demo:
-
-[▶️ Watch Robot Demo](docs/robot.mp4)
+![Demo](robot.gif)
 
 ---
 
